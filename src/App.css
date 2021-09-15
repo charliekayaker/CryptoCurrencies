@@ -1,0 +1,46 @@
+.parpadea_r{
+
+    animation-name: parpadeo;
+    animation-duration: 0.7s;
+    animation-timing-function: linear;
+    animation-iteration-count: 2;
+
+    -webkit-animation-name: parpadeo;
+    -webkit-animation-duration: 0.7s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 2;
+
+    background-color: red;
+}
+
+.parpadea_v{
+
+    animation-name: parpadeo;
+    animation-duration: 0.8s;
+    animation-timing-function: linear;
+    animation-iteration-count: 2;
+
+    -webkit-animation-name: parpadeo;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 2;
+
+    background-color: green;
+}
+
+.priceStyle{
+    background-color : 'white';
+    color: 'black';
+}
+
+@-webkit-keyframes parpadeo{
+    0% { opacity: 0.0; }
+    50% { opacity: 1.0; }
+    100% { opacity: 0.0; }
+}
+
+@keyframes parpadeo{
+    0% { opacity: 0.0; }
+    50% { opacity: 1.0; }
+    100% { opacity: 0.0;}
+}

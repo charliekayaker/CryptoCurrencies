@@ -181,4 +181,3 @@ const priceStyle = {
 }
 
 const headerTableStyle = { borderBottom: 'white solid .1em' }
-
